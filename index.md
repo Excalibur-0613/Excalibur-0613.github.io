@@ -52,7 +52,7 @@ title: Benjamin Russ | Robotics Portfolio
     <h4>Testbed Demo</h4>
     <div style="text-align:center;">
     <iframe width="560" height="315"
-      src="https://youtu.be/My8vmd7egcA"
+      src="https://www.youtube.com/embed/My8vmd7egcA"
       title="Simulation Video"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
