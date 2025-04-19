@@ -50,7 +50,6 @@ title: Benjamin Russ | Robotics Portfolio
       <li>Designed and built hardware from scratch</li>
     </ul>
     <h4>Testbed Demo</h4>
-    {% raw %}
     <div style="text-align:center;">
     <iframe width="560" height="315"
       src="https://youtu.be/My8vmd7egcA"
@@ -59,7 +58,6 @@ title: Benjamin Russ | Robotics Portfolio
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen>
     </iframe>
-    {% endraw %}
 </div>
 
   </div>
