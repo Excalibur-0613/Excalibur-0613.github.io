@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/dropdown.md",
+                "file": "_pages/projects.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dropdown"
+              "title": "projects"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/dropdown.md",
+                "file": "_pages/projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for dropdown"
+              "title": "Backlinks for projects"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/dropdown.md",
+                "file": "_pages/projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from dropdown"
+              "title": "Outgoing links from projects"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/dropdown.md",
+                "file": "_pages/projects.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of dropdown"
+              "title": "Outline of projects"
             }
           }
         ]
@@ -170,13 +170,19 @@
   },
   "active": "26717ef4a7862e1e",
   "lastOpenFiles": [
+    "_pages/publications.md",
+    "_pages/teaching.md",
+    "_pages/profiles.md",
+    "_pages/news.md",
+    "_pages/dropdown.md",
     "_pages/about.md",
+    "_pages/about_einstein.md",
+    "_pages/blog.md",
+    "_pages/books.md",
     "assets/img/Favicon/favicon.ico",
     "assets/img/Favicon/banner-hexagon.png",
     "assets/img/Favicon",
     "CUSTOMIZE.md",
-    "_pages/profiles.md",
-    "_pages/about_einstein.md",
     "CONTRIBUTING.md",
     "_pages/404.md",
     "_pages/projects.md",
