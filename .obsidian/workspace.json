@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CUSTOMIZE.md",
+                "file": "_pages/profiles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CUSTOMIZE"
+              "title": "profiles"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 298.500732421875
   },
   "right": {
     "id": "384f047c9c8738bb",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CUSTOMIZE.md",
+                "file": "_pages/profiles.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for CUSTOMIZE"
+              "title": "Backlinks for profiles"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CUSTOMIZE.md",
+                "file": "_pages/profiles.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from CUSTOMIZE"
+              "title": "Outgoing links from profiles"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CUSTOMIZE.md",
+                "file": "_pages/profiles.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of CUSTOMIZE"
+              "title": "Outline of profiles"
             }
           }
         ]
@@ -168,10 +168,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "26717ef4a7862e1e",
+  "active": "db46c5ee2d86d1fb",
   "lastOpenFiles": [
-    "FAQ.md",
+    "CONTRIBUTING.md",
+    "_pages/404.md",
+    "_pages/about.md",
+    "_pages/about_einstein.md",
+    "_pages/profiles.md",
+    "_pages/projects.md",
     "CUSTOMIZE.md",
+    "FAQ.md",
     "_projects/5_project.md",
     "_projects/4_project.md",
     "_projects/3_project.md",
