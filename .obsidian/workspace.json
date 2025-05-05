@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/projects.md",
+                "file": "_pages/books.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "projects"
+              "title": "books"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_pages/projects.md",
+                "file": "_pages/books.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for projects"
+              "title": "Backlinks for books"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_pages/projects.md",
+                "file": "_pages/books.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from projects"
+              "title": "Outgoing links from books"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_pages/projects.md",
+                "file": "_pages/books.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of projects"
+              "title": "Outline of books"
             }
           }
         ]
@@ -170,22 +170,27 @@
   },
   "active": "26717ef4a7862e1e",
   "lastOpenFiles": [
-    "_pages/publications.md",
+    "_pages/blog.md",
+    "_posts/2025-03-26-plotly.md",
+    "readme_preview/code.png",
+    "readme_preview/dark.png",
+    "_pages/books.md",
+    "_books/the_godfather.md",
+    "CUSTOMIZE.md",
+    "_pages/about.md",
+    "_pages/about_einstein.md",
     "_pages/teaching.md",
+    "_pages/repositories.md",
+    "_pages/publications.md",
+    "_pages/projects.md",
     "_pages/profiles.md",
     "_pages/news.md",
     "_pages/dropdown.md",
-    "_pages/about.md",
-    "_pages/about_einstein.md",
-    "_pages/blog.md",
-    "_pages/books.md",
     "assets/img/Favicon/favicon.ico",
     "assets/img/Favicon/banner-hexagon.png",
     "assets/img/Favicon",
-    "CUSTOMIZE.md",
     "CONTRIBUTING.md",
     "_pages/404.md",
-    "_pages/projects.md",
     "FAQ.md",
     "_projects/5_project.md",
     "_projects/4_project.md",
