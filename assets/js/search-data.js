@@ -436,6 +436,13 @@ ninja.data = [{
           window.open("mailto:%42%65%6E%6A%61%6D%69%6E%72%75%73%73%37%35@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/www.linkedin.com/in/benjamin-russ-57a18a122", "_blank");
+        },
+      },{
         id: 'social-rss',
         title: 'RSS Feed',
         section: 'Socials',
