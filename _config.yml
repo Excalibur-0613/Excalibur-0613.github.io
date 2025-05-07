@@ -276,7 +276,7 @@ scholar:
   last_name: [Russ]
   first_name: [Benjamin, J.]
 
-  style: IEEE
+  style: ieee
   locale: en
 
   source: /_bibliography/
