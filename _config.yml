@@ -19,7 +19,7 @@ icon: Favicon/banner-hexagon.png # the emoji used as the favicon (alternatively,
 
 url: https://excalibur-0613.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -273,10 +273,10 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Russ]
+  first_name: [Benjamin, J.]
 
-  style: apa
+  style: IEEE
   locale: en
 
   source: /_bibliography/
