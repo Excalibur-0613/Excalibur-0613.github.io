@@ -20,7 +20,7 @@ email: Benjaminruss75@gmail.com # your email address
 # lastfm_id: # your lastfm id
 # lattes_id: # your ID on Lattes (Brazilian Lattes CV)
 # leetcode_id: # your LeetCode id
-linkedin_username: www.linkedin.com/in/benjamin-russ-57a18a122 # your LinkedIn user name
+linkedin_username: benjamin-russ-57a18a122 # your LinkedIn user name
 # mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 # medium_username: # your Medium username
 # orcid_id: # your ORCID ID
@@ -29,7 +29,7 @@ linkedin_username: www.linkedin.com/in/benjamin-russ-57a18a122 # your LinkedIn u
 # publons_id: # your ID on Publons
 # quora_username: # your Quora username
 # research_gate_profile: # your profile on ResearchGate
-rss_icon: false # set to true to show the RSS icon
+# rss_icon: false # set to true to show the RSS icon
 scholar_userid: WKmV0L8AAAAJ # your Google Scholar ID
 # scopus_id: # your profile on Scopus
 # semanticscholar_id: # your Semantic Scholar ID

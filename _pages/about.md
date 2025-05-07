@@ -9,7 +9,7 @@ profile:
   image: profile.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Cincinnati, OH 12345</p>
+    <p>Cincinnati, OH</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -30,4 +30,4 @@ During my time in my graduate program and in my current explorations; I have com
 
 It has been proven from the current art and the most developed offerings from Boston Dynamics, Digit, Fanuc, Kuka, and others that vision and basic spatial perception suitably completes most tasks. However, as demonstrated in my graduate work and the current research body, so much more is possible that we may not yet understand. 
 
-In this collection, you will find my thesis work and associated graduate projects in the "projects" tab above. Additionally, you will find documentation for current research I am conducting  and how it ties into my previous work.  My cv/resume and other professional information is contained under "CV". Lastly, I have a few extras to get to know me better through the "bookshelf" tab and my published repositories from these past projects. Thank you for visiting my site and lets connect over the exciting developments and discoveries for the next age of automation! 
+In this collection, you will find my thesis work and associated graduate projects in the "projects" tab above. Additionally, you will find documentation for current research I am conducting  and how it ties into my previous work.  My cv/resume and other professional information is contained under "CV". Lastly, I have a few extras to get to know me better through the "bookshelf" tab and my published "repositories" tab from these past projects. Thank you for visiting my site and lets connect over the exciting developments and discoveries for the next age of automation! 

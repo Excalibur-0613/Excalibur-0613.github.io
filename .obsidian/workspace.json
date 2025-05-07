@@ -170,8 +170,10 @@
   },
   "active": "26717ef4a7862e1e",
   "lastOpenFiles": [
+    "_pages/blog.md",
     "_pages/about_einstein.md",
     "_pages/about.md",
+    "_pages/cv.md",
     "assets/pdf/Russ_Benjamin_Resume_2025.pdf",
     "assets/pdf/BenjaminRuss_Thesis.pdf",
     "assets/pdf/BenjaminRuss_Thesis-1.pdf",
@@ -182,7 +184,6 @@
     "_projects/2_project.md",
     "_projects/1_project.md",
     "_pages/books.md",
-    "_pages/blog.md",
     "_posts/2025-03-26-plotly.md",
     "readme_preview/code.png",
     "readme_preview/dark.png",
