@@ -1,12 +1,16 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Force Sensitive Motor Driver
+description: Ongoing development for force responsive joints
+img: assets/img/7.jpg
 importance: 2
-category: work
-giscus_comments: true
+category:
 ---
+
+## Goals
+- Real-time force data capture using FSR sensors
+- Stream data via microcontroller to ROS node
+- Test dynamic interactions and apply real-time corrections
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.

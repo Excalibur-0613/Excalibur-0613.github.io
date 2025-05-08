@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
-importance: 3
-category: fun
+title: Cellular Automata attractor and repellor system
+description: A simulation for a complex system with simple rules to move objects to a target region in 2D space
+img: 
+importance: 4
+category:
 ---
 
 Every project has a beautiful feature showcase page.

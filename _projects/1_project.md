@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: Thesis
+description: Multi-Robot Collaboration via Contact Perception & Non-Prehensile Object Transportation
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: 
 related_publications: true
 ---
 
@@ -79,3 +79,5 @@ Here's the code for the last row of images above:
 ```
 
 {% endraw %}
+
+
