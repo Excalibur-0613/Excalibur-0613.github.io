@@ -2,10 +2,10 @@
 layout: page
 title: Sim-to-Real Space Debris Simulator
 description: Simulating space debris free motion on earth to understand trajectories mirrored in space
-img: assets/img/3.jpg
+img: assets/img/FanucRobot.jpg
 importance: 3
 category: 
-giscus_comments: true
+giscus_comments: false
 ---
 This was a class project completed in conjunction with ongoing research during the 2022 spring semester. The primary objective for this project was to simulate the free body motion of space debris on a physical platform (Fanuc CR35IA collaborative robot). This would provide a means to develop control algorithms for craft bound robotics to grab the tumbling debris before full deployment.
 
@@ -35,6 +35,9 @@ This was a class project completed in conjunction with ongoing research during t
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+<div class="caption">
+    ROBODK Simulation of Fanuc CR35-IA with the desired trajectory for physical implementation.
+</div>
 {% endraw %}
 
 {% raw %}
@@ -45,7 +48,11 @@ This was a class project completed in conjunction with ongoing research during t
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+<div class="caption">
+    ROBODK Simulation of Fanuc CR35-IA with the desired trajectory for physical implementation and attached object.
+</div>
 {% endraw %}
+
 
 {% raw %}
 <iframe width="560" height="315"
@@ -55,4 +62,7 @@ This was a class project completed in conjunction with ongoing research during t
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
   allowfullscreen>
 </iframe>
+<div class="caption">
+    Fanuc CR35-IA with attached object to end-effector. The reset and rising of joints was due to an interaction with J2 and J3 which was solved by changing the central location of the object within the workspace and updating the fanuc controller.
+</div>
 {% endraw %}
