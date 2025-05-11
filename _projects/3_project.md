@@ -2,7 +2,7 @@
 layout: page
 title: Sim-to-Real Space Debris Simulator
 description: Simulating space debris free motion on earth to understand trajectories mirrored in space
-img: assets/img/FanucRobot.jpg
+img: assets/img/Proj/Fanuc/FanucRobot.jpg
 importance: 3
 category: 
 giscus_comments: false
