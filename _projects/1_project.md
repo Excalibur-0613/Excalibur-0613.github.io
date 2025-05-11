@@ -38,10 +38,10 @@ With the assistance of my senior capstone group (1 Mechanical 2 Computer Enginee
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Proj/Thesis/IMG_4657.jpg" title="Prototype Lower" class="img-fluid rounded z-depth-1" %}
-        rotate: 180 deg
+        transform: rotate(180deg)
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Proj/Thesis/IMG_4667.jpg" title="Assembled Prototype" class="img-fluid rounded z-depth-1" %}
-        rotate: 180 deg
+        transform: rotate(180deg)
     </div>
 </div>
