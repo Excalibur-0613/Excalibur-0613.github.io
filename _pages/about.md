@@ -23,13 +23,31 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-My name is Benjamin "Ben" Russ, a Mechanical Engineer and Robotics Researcher with a focus on mobile robot behavior and perception. I studied Mechanical Engineering at the University of Cincinnati, graduating with both Bachelor of Science and Master of Science degrees. I am currently a Mechanical Design Engineer with Honeywell Intelligrated. In this role I am developing sensor feedback and preventative maintenance embedded products for the Line Sortation product family among other R&D projects.
+I'm Benjamin (Ben) Russ, a Mechanical Engineer and Robotics Researcher dedicated to advancing the field of automation. My passion lies in exploring the intersection of perception, contact, and dynamic behaviors in mobile robotics. I’m currently working as a Mechanical Design Engineer at Honeywell Intelligrated, developing embedded sensor systems and preventative maintenance technologies for industrial line sortation equipment.
+## What I Aim to Do
 
-During my graduate program I was a fellow with the Space Research Institute for Discovery and Exploration (SRIDE) at the University of Cincinnati. Through this fellowship and thesis journey, I developed a dynamic trajectory planner and impedance controller to complete a collaborative object transportation task. The outcomes from my work included a controller model, ROS/Gazebo simulation, and a physical prototype robot which demonstrated the concepts and performance of the proposed system. Through this work I produced a manuscript along with my mentor and advisor, Dr. Tamara Lorenz, but ultimately have not published yet. Through my current investigations and new approaches to my thesis topics, I see great value in the data and learning from this writing I look forward to refining further. Within the "projects" tab of this collection I detail the full outcomes and background. 
+I’m driven to shape the future of robotics by diving deeper into underutilized areas of control and interaction. While most modern robotic systems rely heavily on visual and spatial perception, I believe the next leap in robotic capability lies in how we harness force, contact, and dynamics. My current work is developing an experimental motor driver and analog control system which responds directly to physical stimulus, bypassing traditional voltage digital loops. These experiments hint at a new method for responsive, force-aware robotics.
 
-In my current explorations and following my thesis, I am beginning to understand that vision and basic spatial perception suitably completes most tasks. This is including the current art and most matured offerings from Boston Dynamics, Digit, Fanuc, Kuka, and others. However, I firmly believe there is much more we have not yet harnessed with contact and dynamic robotics. Armed with the knowledge from my thesis and a passion for the next chapters of robotics, I continue to explore different approaches for facilitating contact and cooperation. This is illustrated in my force feedback motor driver project which has demonstrated that we do not need to translate a sensor voltage in a motor feedback loop. Rather, we can easily define an analog response to an input stimulus and remain limited to a system's mechanical inertia. Given a precise inertia ratio and high stiffness in a joint, a highly responsive control and feedback system is seeming to emerge. I look forward to continuing this work and I hope someone may find inspiration to continue expanding this exciting topic. 
+I seek to collaborate with others who are curious about how robots can interact more intuitively and responsively with the world. Whether it's for automation, space exploration, or collaborative manufacturing, I am excited by possibilities that lie beyond the visual domain.
+## Education and Academic Work
 
-Finally in this collection, I have detailed background and outcomes from my various projects in the "projects" tab above. The associated code from some of these projects is published under the "repositories" tab. I will note that some of these projects were group projects from graduate classes and I distinguish my contributions where appropriate. My cv/resume and other professional information is contained under "CV". Lastly, I have a few extras to get to know me better through the "bookshelf" and "gallery" tabs. I am always open to opportunities and ventures, please feel free to reach out using the links below or through my contact in my CV. Thank you for visiting my site and lets connect over the exciting developments and discoveries for the next age of automation! 
+I earned both my Bachelor of Science and Master of Science degrees in Mechanical Engineering from the University of Cincinnati. 
+
+During my graduate studies, I was a fellow at the Space Research Institute for Discovery and Exploration (SRIDE). My thesis focused on developing a dynamic trajectory planner and impedance controller for collaborative object transport tasks.
+
+This work included building a physical prototype, conducting simulations in ROS and Gazebo, and creating a functional controller model. Under the guidance of Dr. Tamara Lorenz, I authored a manuscript detailing these outcomes. While this work is not yet published, I continue to expand on its findings and hope to share a refined version in the future.
+## Research and Development Focus
+
+My growing belief is that robotics has only scratched the surface when it comes to contact and cooperative dynamics. With thoughtful mechanical design, precise joint construction and control, and proper perception, we can enable control systems that mimic intuitive human-like responsiveness. The force feedback motor driver project is one such exploration, providing insight into how analog responses and mechanical design can substitute for more complex sensor integration.
+
+This isn’t just theory—I’ve built and tested these systems to demonstrate real-world potential. I'm eager to contribute to projects and teams pushing the boundaries of what robotic interaction can achieve.
+## Explore More
+
+To get a deeper look at my work, visit the "Projects" tab for detailed write-ups of both individual and group efforts. You can also access related source code under "Repositories," and get a full overview of my experience in the "CV" section. My social links and contact information is accessible through the buttons below as well as in the CV section. 
+
+For a glimpse of who I am beyond engineering, the "Bookshelf" and "Gallery" tabs offer personal favorites and visual snapshots of my journey.
+
+Thank you for visiting. I’m always open to new opportunities, collaborations, or just thoughtful conversation about the future of robotics. Let’s connect!
 
 
 
