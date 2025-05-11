@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_projects/1_project.md",
+                "file": "_pages/about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_project"
+              "title": "about"
             }
           }
         ]
@@ -170,11 +170,11 @@
   },
   "active": "146ca3c9ea306bd6",
   "lastOpenFiles": [
+    "_projects/1_project.md",
     "_projects/3_project.md",
     "assets/img/Proj/Thesis/IMG_4657.jpg",
     "assets/img/Proj/Thesis/IMG_4667.jpg",
     "assets/img/Proj/Thesis",
-    "_projects/1_project.md",
     "assets/img/Proj/Fanuc/FanucRobot.jpg",
     "assets/img/Proj/Fanuc",
     "assets/img/Proj/FanucRobot.jpg",
