@@ -8,18 +8,35 @@ category:
 related_publications: true
 cv_pdf: BenjaminRuss_Thesis.pdf
 ---
-To round off my graduate tenure at the University of Cincinnati, I explored the interaction of mobile robot systems relying on contact to communicate. This work was completed within the Embodied and Interactive Systems laboratory overseen by Dr. Tamara Lorenz whom I am grateful for her guidance and mentorship. 
+For my graduate thesis project, I explored the interaction of mobile robot systems relying on contact to communicate. This work was completed within the Embodied and Interactive Systems laboratory overseen by Dr. Tamara Lorenz whom I am grateful for her guidance and mentorship. 
 
 At the onset of this project, the fundamental question that I formulated was: 
 
 *What behaviors and structures will arise from a system coordinating strictly with implicit communication? Additionally, how will tasking this system with transporting an object more massive than one agent of this system adapt to a non-prehensile condition?*
 
-With this question, my vision for this project has been a means for robots to be operational alongside humans without barriers or separation. Simultaneously, enabling robots to directly contact within a complex system may naturally cooperate the individuals for greater system achievements. My desired outcome is creating a system of smaller robots at scale for moving objects rather than larger AGVs or AMRs. Lastly, I hope to generally apply this framework to industrial arms and other robotic systems to better generalize to tasks and complex workspaces.
+With this question, my vision for this project has been a means for robots to be operational alongside humans without barriers or separation. Consequently, enabling robots to directly contact within a complex system may naturally cooperate the individuals for greater system achievements. My desired outcome is creating a system of smaller robots at scale for moving objects rather than singular larger AGVs or AMRs. Lastly, I hope to generally apply this framework to industrial arms and other robotic systems to better generalize to tasks and complex workspaces.
 ## **Objectives**
 
-1. Develop a trajectory planning model best suited to handle dynamic environments with a target position and current position feedback
-2. Develop a multi-robot system in simulation to develop a control system in ROS and observe theoretical behavior with varying dynamic properties and number of active agents
-3. Build a physical concept as simulated and better understand the measurement of applied force for mobile robots
+1. Develop a trajectory planning model suited to dynamic environments with a target position and current position feedback
+2. Develop a multi-robot system in simulation to identify theoretical behaviors related to varying dynamic properties and number of active agents
+3. Build a physical concept complemented with testing of current methods for applied force
+
+## **Background**
+
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Proj/Thesis/Slide1.jpg" title="Prototype Lower" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+Stuff in between
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Proj/Thesis/Slide2.jpg" title="Assembled Prototype" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ## **Simulation Challenges & Outcomes**
 
@@ -38,10 +55,8 @@ With the assistance of my senior capstone group (1 Mechanical 2 Computer Enginee
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Proj/Thesis/IMG_4657.jpg" title="Prototype Lower" class="img-fluid rounded z-depth-1" %}
-        transform: rotate(180deg)
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/Proj/Thesis/IMG_4667.jpg" title="Assembled Prototype" class="img-fluid rounded z-depth-1" %}
-        transform: rotate(180deg)
     </div>
 </div>
