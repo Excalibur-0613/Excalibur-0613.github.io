@@ -62,7 +62,7 @@ stuff inbetween
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid width=100%  path="https://www.youtube.com/embed/IHvAYfFqApM?autoplay=1&mute=1&loop=1&controls=0&rel=0" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid width="560" height="315"  path="https://www.youtube.com/embed/IHvAYfFqApM?autoplay=1&mute=1&loop=1&controls=0&rel=0" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
