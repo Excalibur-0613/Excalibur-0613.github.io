@@ -46,7 +46,7 @@ During testing, trials were conducted with the same dynamic parameters and numbe
 
 ### **Case 1**
 
-{% raw %}
+
 <iframe width="560" height="315"
   src="https://www.youtube.com/embed/IHvAYfFqApM?autoplay=1&mute=1&loop=1&controls=0&rel=0"
   title="Simulation Video"
@@ -57,13 +57,12 @@ During testing, trials were conducted with the same dynamic parameters and numbe
 <div class="caption">
     ROBODK Simulation of Fanuc CR35-IA with the desired trajectory for physical implementation.
 </div>
-{% endraw %}
 
 stuff inbetween
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/IHvAYfFqApM?autoplay=1&mute=1&loop=1&controls=0&rel=0" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid width=100%  path="https://www.youtube.com/embed/IHvAYfFqApM?autoplay=1&mute=1&loop=1&controls=0&rel=0" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -78,30 +77,25 @@ other stuff
 
 ### **Case 2**
 
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/23fDkfHQ978?autoplay=1&mute=1&loop=1&controls=0&rel=0" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/video/230421_Case2_CollabortativeSuccess.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 
-https://youtu.be/23fDkfHQ978
 ### **Case 3**
 
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/E-Dvef2frVg?autoplay=1&mute=1&loop=1&controls=0&rel=0" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/video/230421_Case3_HexForms.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
-
-https://youtu.be/E-Dvef2frVg
 ### **Case 4**
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/AcXcCaZQbFI?autoplay=1&mute=1&loop=1&controls=0&rel=0" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="assets/video/230421_Case4_UnstableBehavior.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
-
-https://youtu.be/AcXcCaZQbFI
 
 While many of these trials did not successfully push the object within the criteria tolerance, many trials were just outside of the specified region and overshot the goal. Additionally, for the given parameters of this testing two cases (case 2 and case 3) had the highest rates of success and more consistent trials compared to the other cases. The number of agents acting within the workspace contributed greatly to the objects path within the trial period. While these robots were randomly placed within the case, an increase or decrease in the number of robots did not prove a predictable relationship for "successful" completion of the task or measurable application parameters. There is a reasonable question of what is an "acceptable" target region for the object. While the region chosen for testing was rather constrained, there were many instances of "successful" trials. Reflecting on this process, more trials than the 10 averaged for each combination for this study may be required for a proper pattern to arise. I also see evidence from some telemetry a lack of condition or refinement in the model. Further study is needed on the stability aspect with a coupled path planning/impedance model as proposed. 
 
@@ -121,9 +115,9 @@ With the assistance of my senior capstone group (1 Mechanical 2 Computer Enginee
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Proj/Thesis/IMG_4657.jpg" title="Prototype Lower" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Proj/Thesis/IMG_4657.jpg" title="Prototype Lower" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Proj/Thesis/IMG_4667.jpg" title="Assembled Prototype" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Proj/Thesis/IMG_4667.jpg" title="Assembled Prototype" class="img-fluid rounded z-depth-1" avoid_scaling=true %}
     </div>
 </div>
