@@ -27,11 +27,10 @@ The theory for this work begins with the spring-mass-damper dynamical system ana
 The first dynamical system is in the trajectory planner. The model, known as attractor dynamics, is found in Fajen and Warren's publications which describe human trajectory planning in the case of obstacles and a target position. Their work describes how an attractor or a repeller within an environment may affect a persons heading depending on the distance to the target or obstacle. This model is of particular interest because it allows for omnidirectional control. Furthermore, the paths described in their works were dependent on the dynamical parameters which I believed would positively contribute towards system stability. Lastly, the information required for the model is conveniently current position, target position, and obstacle position. The model utilized in this testing is: 
 
 \begin{equation}\label{Att Dyn}
-    \ddot{\phi} = -b_{nav} \dot{\phi} -k_p(\phi - \psi_p)(e^{-c_1 d_p} + c_2) + 
-    \\k_r(\phi - \psi_r)(e^{-c_3|\phi - \psi_r|})(e^{-c_4 d_r}),
+    \ddot{\phi} = -b_{nav} \dot{\phi} -k_p(\phi - \psi_p)(e^{-c_1 d_p} + c_2) + \k_r(\phi - \psi_r)(e^{-c_3|\phi - \psi_r|})(e^{-c_4 d_r}),
 \end{equation}
 
-New stuff
+here \b_{nav}\ is the system damping, \k_p\ is stiffness of the heading towards the pushing point, and $k_r$ is stiffness of the heading towards the repeller, \psi_p\ is the relative heading to the pushing point, \d_p\ relative distance to the pushing point, \psi_r\ relative angle between robot and repeller, and \d_r\ as the robot's distance to the repeller. The remaining terms are user defined tuning constants
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
