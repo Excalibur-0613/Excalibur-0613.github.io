@@ -27,10 +27,36 @@ The theory for this work begins with the spring-mass-damper dynamical system ana
 The first dynamical system is in the trajectory planner. The model, known as attractor dynamics, is found in Fajen and Warren's publications which describe human trajectory planning in the case of obstacles and a target position. Their work describes how an attractor or a repeller within an environment may affect a persons heading depending on the distance to the target or obstacle. This model is of particular interest because it allows for omnidirectional control. Furthermore, the paths described in their works were dependent on the dynamical parameters which I believed would positively contribute towards system stability. Lastly, the information required for the model is conveniently current position, target position, and obstacle position. The model utilized in this testing is: 
 
 \begin{equation}\label{Att Dyn}
-    \ddot{\phi} = -b_{nav} \dot{\phi} -k_p(\phi - \psi_p)(e^{-c_1 d_p} + c_2) + \k_r(\phi - \psi_r)(e^{-c_3|\phi - \psi_r|})(e^{-c_4 d_r}),
+    \ddot{\phi} = -b_{nav} \dot{\phi} -k_p(\phi - \psi_p)(e^{-c_1 d_p} + c_2) + k_r(\phi - \psi_r)(e^{-c_3|\phi - \psi_r|})(e^{-c_4 d_r}),
 \end{equation}
 
-here \b_{nav}\ is the system damping, \k_p\ is stiffness of the heading towards the pushing point, and $k_r$ is stiffness of the heading towards the repeller, \psi_p\ is the relative heading to the pushing point, \d_p\ relative distance to the pushing point, \psi_r\ relative angle between robot and repeller, and \d_r\ as the robot's distance to the repeller. The remaining terms are user defined tuning constants
+here \(b_{nav}\) is the system damping, \(k_p\) is stiffness of the heading towards the target position, and \(k_r\) is stiffness of the heading towards the repeller, \(psi_p\) is the relative heading to the pushing point, \(d_p\) relative distance to the pushing point, \(psi_r\) relative angle between robot and repeller, and \(d_r\) as the robot's distance to the repeller. The remaining terms are user defined tuning constants
+
+The other dynamical model is an impedance controller. The purpose of this is for the robot to utilize the force feedback and adjust the heading received from the trajectory planner. The adjustment to the heading will depend on the dynamic parameters. However, the goal is to bias the heading towards the "center of contact". For example if one robot comes into a non-coupled contact with another robot, the heading should be somewhere between the object and the other robot. This will create a group which will be able to maintain their contact while continuing towards the target position. In the case of many robots in contact, it will depend on where the magnitude of force is being observed. The model for this is defined as: 
+
+\begin{equation} \label{Altered Imp}
+    m\ddot{x} + b(\dot{x} + \rho) = (f_{d} * F_{scale}) - f,
+\end{equation}
+
+where \(f_{d}\) is the desired force which determines the direction of the applied force, \(f\) is the measured force resolved to principal axes, and \(F_{scale}\) is a tuning constant to overcome external disturbances and avoid deadlock. The adaptive term \(\rho\) reacts to the online force error, such that
+
+\begin{equation} \label{Rho Imp}
+    \rho(t) = \rho(t-T) + \sigma \frac{f_d(t-T) - f(t-T)}{b},
+\end{equation}
+
+with \(T\) being the sample rate of the system and \(\sigma\) tends to directly compensate for accumulating errors caused by environmental stiffness, such that
+
+\begin{equation} \label{Sig Imp}
+    \sigma = \frac{1}{e^{\alpha |\Delta f|} + e^{\beta |\Delta f'|} + U_{limit}}, 
+\end{equation}
+
+where \(U_{limit}\) is an upper limit to ensure stability defined as
+
+\begin{equation} \label{U limit Imp}
+    U_{limit} = \frac{m + bT}{bT},
+\end{equation}
+
+with \(\Delta f\) being the force error and \(\Delta f'\) the gradient of the force error. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
