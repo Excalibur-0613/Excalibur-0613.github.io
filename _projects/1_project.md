@@ -45,29 +45,6 @@ During testing, trials were conducted with the same dynamic parameters and numbe
 
 
 ### **Case 1**
-
-
-<iframe width="560" height="315"
-  src="https://www.youtube.com/embed/IHvAYfFqApM?autoplay=1&mute=1&loop=1&controls=0&rel=0"
-  title="Simulation Video"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
-<div class="caption">
-    ROBODK Simulation of Fanuc CR35-IA with the desired trajectory for physical implementation.
-</div>
-
-stuff inbetween
-
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid width="560" height="315"  path="https://www.youtube.com/embed/IHvAYfFqApM?autoplay=1&mute=1&loop=1&controls=0&rel=0" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-other stuff
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/230421_Case1_AlmostThere.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
@@ -76,7 +53,6 @@ other stuff
 </div>
 
 ### **Case 2**
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/230421_Case2_CollabortativeSuccess.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
@@ -84,7 +60,6 @@ other stuff
 </div>
 
 ### **Case 3**
-
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
         {% include video.liquid path="assets/video/230421_Case3_HexForms.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
