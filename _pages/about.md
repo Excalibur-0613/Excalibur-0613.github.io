@@ -24,7 +24,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 I'm Benjamin (Ben) Russ, a Mechanical Engineer and Robotics Researcher dedicated to advancing the field of automation. My passion lies in exploring the intersection of perception, contact, and dynamic behaviors in mobile robotics. I’m currently working as a Mechanical Design Engineer at Honeywell Intelligrated, developing embedded sensor systems and preventative maintenance technologies for industrial line sortation equipment.
-## **What I Aim to Do**
+## **My Vision**
 
 I’m driven to shape the future of robotics by diving deeper into underutilized areas of control and interaction. While most modern robotic systems rely heavily on visual and spatial perception, I believe the next leap in robotic capability lies in how we harness force, contact, and dynamics. My current work is developing an experimental motor driver and analog control system which responds directly to physical stimulus, bypassing traditional voltage digital loops. These experiments hint at a new method for responsive, force-aware robotics.
 

@@ -8,7 +8,7 @@ category:
 related_publications: false
 cv_pdf: BenjaminRuss_Thesis.pdf
 ---
-For my graduate thesis project, I explored the interaction of mobile robot systems relying on contact to communicate. This work was completed within the Embodied and Interactive Systems laboratory overseen by Dr. Tamara Lorenz whom I am grateful for her guidance and mentorship. My complete thesis is available on my google scholar link on the home page of this portfolio site.
+For my graduate thesis project, I explored the interaction of mobile robot systems relying on contact to communicate. This work was completed within the Embodied and Interactive Systems laboratory at the University of Cincinnati. I also give special thanks to my advisor Dr. Tamara Lorenz for which I am grateful of her guidance and mentorship. My complete thesis is available on my google scholar link on the home page of this portfolio site.
 
 At the onset of this project, the fundamental question that I formulated was: 
 
@@ -24,13 +24,13 @@ With this question, my vision for this project has been a means for robots to be
 # **Background**
 The theory for this work begins with the spring-mass-damper dynamical system analogy. While this particular work is more abstract from a traditional mechanical system, the foundation of stiffness, damping, and inertia are present throughout this system. 
 
-The first dynamical system is in the trajectory planner. The model, known as attractor dynamics, is found in Fajen and Warren's publications which describe human trajectory planning in the case of obstacles and a target position. Their work describes how an attractor or a repeller within an environment may affect a persons heading depending on the distance to the target or obstacle. This model is of particular interest because it allows for omnidirectional control. Furthermore, the paths described in their works were dependent on the dynamical parameters which I believed would positively contribute towards system stability. Lastly, the information required for the model is conveniently current position, target position, and obstacle position. The model utilized in this testing is: 
+The first dynamical system is in the trajectory planner. The model, known as attractor dynamics, is found in Fajen and Warren's publications which describe human trajectory planning in the case of obstacles and a target position. Their work describes how an attractor or a repeller within an environment may affect a person's heading depending on the distance to the target or obstacle. This model is of particular interest because it allows for omnidirectional control. Furthermore, the paths described in their works were dependent on the dynamical parameters which I believed would positively contribute towards system stability. Lastly, the information required for the model is conveniently current position, target position, and obstacle position. The model utilized in this testing is: 
 
 \begin{equation}\label{Att Dyn}
     \ddot{\phi} = -b_{nav} \dot{\phi} -k_p(\phi - \psi_p)(e^{-c_1 d_p} + c_2) + k_r(\phi - \psi_r)(e^{-c_3|\phi - \psi_r|})(e^{-c_4 d_r}),
 \end{equation}
 
-here $b_{nav}$ is the system damping, $k_p$ is stiffness of the heading towards the target position, and $k_r$ is stiffness of the heading towards the repeller, $psi_p$ is the relative heading to the pushing point, $d_p$ relative distance to the pushing point, $\psi_r$ relative angle between robot and repeller, and $d_r$ as the robot's distance to the repeller. The remaining terms are user defined tuning constants
+here $b_{nav}$ is the system damping, $k_p$ is stiffness of the heading towards the target position, and $k_r$ is stiffness of the heading towards the repeller, $psi_p$ is the relative heading to the pushing point, $d_p$ relative distance to the pushing point, $\psi_r$ relative angle between robot and repeller, and $d_r$ as the robot's distance to the repeller. The remaining terms are user defined tuning constants.
 
 The other dynamical model is an impedance controller. The purpose of this is for the robot to utilize the force feedback and adjust the heading received from the trajectory planner. The adjustment to the heading will depend on the dynamic parameters. However, the goal is to bias the heading towards the "center of contact". For example if one robot comes into a non-coupled contact with another robot, the heading should be somewhere between the object and the other robot. This will create a group which will be able to maintain their contact while continuing towards the target position. In the case of many robots in contact, it will depend on where the magnitude of force is being observed. The model for this is defined as: 
 
