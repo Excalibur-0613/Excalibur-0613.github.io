@@ -45,8 +45,6 @@ This isn’t just theory—I’ve built and tested these systems to demonstrate 
 
 To get a deeper look at my work, visit the "Projects" tab for detailed write-ups of both individual and group efforts. You can also access related source code under "Repositories," and get a full overview of my experience in the "CV" section. My social links and contact information is accessible through the buttons below as well as in the CV section. 
 
-For a glimpse of who I am beyond engineering, the "Bookshelf" and "Gallery" tabs offer personal favorites and visual snapshots of my journey.
-
 Thank you for visiting. I’m always open to new opportunities, collaborations, or just thoughtful conversation about the future of robotics. Let’s connect!
 
 

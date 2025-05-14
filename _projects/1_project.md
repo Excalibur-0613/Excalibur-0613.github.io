@@ -8,8 +8,6 @@ category:
 related_publications: false
 cv_pdf: BenjaminRuss_Thesis.pdf
 ---
-For my graduate thesis project, I explored the interaction of mobile robot systems relying on contact to communicate. This work was completed within the Embodied and Interactive Systems laboratory at the University of Cincinnati. I also give special thanks to my advisor Dr. Tamara Lorenz for which I am grateful of her guidance and mentorship. My complete thesis is available on my google scholar link on the home page of this portfolio site.
-
 At the onset of this project, the fundamental question that I formulated was: 
 
 *What behaviors and structures will arise from a system coordinating strictly with implicit communication? Additionally, how will tasking this system with transporting an object more massive than one agent of this system adapt to a non-prehensile condition?*
@@ -60,7 +58,7 @@ with $\Delta f$ being the force error and $\Delta f'$ the gradient of the force 
 
 ## Testing
 
-The environment setup for the simulation and results collected for this work is illustrated below. The robots are hexagonal in shape and measure force as a resultant decomposed into their local frame. The object is cuboid with a mass such that one robot could not move it alone in the given boundary conditions. The center of the object must be moved withing a specified goal region. While navigating within the environment, the closest point to the object relative to each robot is known. On the object surface facing the goal region creates a repeller for the trajectory planner. This limits the interaction which would increase the distance of the object to the goal region. However, on the occluded side of the object, an attractor is applied to the robot's heading which would encourage the robot to engage the object and push towards the goal region. 
+The environment setup for the simulation and results collected for this work is illustrated below. The robots are hexagonal in shape and measure force as a resultant decomposed into their local frame. The transported object is cuboid with a mass such that one robot could not move it alone. The center of the object must be moved within a specified goal region. While navigating the workspace, the closest point to the object relative to each robot (at a specified range)  is known. On the object surface facing the goal region creates a repeller for the trajectory planner. This limits the interaction which would increase the distance of the object to the goal region. However, on the occluded side of the object, an attractor is applied to the robot's heading which would encourage the robot to engage the object and push towards the goal region. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -134,6 +132,9 @@ With the assistance of my senior capstone group (1 Mechanical 2 Computer Enginee
         {% include figure.liquid loading="eager" path="assets/img/Proj/Thesis/IMG_4667.jpg" title="Assembled Prototype" class="rounded z-depth-1" avoid_scaling=true %}
     </div>
 </div>
+
+
+This work was completed within the Embodied and Interactive Systems laboratory at the University of Cincinnati. I also give special thanks to my advisor Dr. Tamara Lorenz for which I am grateful of her guidance and mentorship. My complete thesis is available on my google scholar link on the home page of this portfolio site.
 
 # **Simulation Challenges**
 

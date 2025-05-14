@@ -145,7 +145,7 @@ newsletter:
 
 collections:
   books:
-    output: true
+    output: false
   news:
     defaults:
       layout: post
@@ -197,6 +197,7 @@ exclude:
   - _pages/dropdown.md
   - _pages/news.md
   - _pages/blog.md
+  - _pages/books.md
   - _pages/profiles.md
   - _news/announcement_1.md
   - _news/announcement_2.md

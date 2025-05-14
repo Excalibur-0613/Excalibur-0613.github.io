@@ -7,6 +7,8 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 ## Old Writing
 
+For a glimpse of who I am beyond engineering, the "Bookshelf" and "Gallery" tabs offer personal favorites and visual snapshots of my journey.
+
 My name is Benjamin "Ben" Russ, a Mechanical Engineer and Robotics Researcher with a focus on mobile robot behavior and perception. I studied Mechanical Engineering at the University of Cincinnati, graduating with both Bachelor of Science and Master of Science degrees. I am currently a Mechanical Design Engineer with Honeywell Intelligrated. In this role I am developing sensor feedback and preventative maintenance embedded products for the Line Sortation product family among other R&D projects.
 
 During my graduate program I was a fellow with the Space Research Institute for Discovery and Exploration (SRIDE) at the University of Cincinnati. Through this fellowship and thesis journey, I developed a dynamic trajectory planner and impedance controller to complete a collaborative object transportation task. The outcomes from my work included a controller model, ROS/Gazebo simulation, and a physical prototype robot which demonstrated the concepts and performance of the proposed system. Through this work I produced a manuscript along with my mentor and advisor, Dr. Tamara Lorenz, but ultimately have not published yet. Through my current investigations and new approaches to my thesis topics, I see great value in the data and learning from this writing I look forward to refining further. Within the "projects" tab of this collection I detail the full outcomes and background. 
