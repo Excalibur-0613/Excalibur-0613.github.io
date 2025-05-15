@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/cv.md",
+                "file": "_pages/about.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "cv"
+              "title": "about"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "29fa2454d59812e1",
   "lastOpenFiles": [
+    "_pages/cv.md",
     "_pages/profiles.md",
     "assets/pdf/cv_pdf.pdf",
     "_pages/404.md",
@@ -209,7 +210,6 @@
     "_projects/2_project.md",
     "_projects/9_project.md",
     "_projects/8_project.md",
-    "_pages/cv.md",
     "assets/pdf/Russ_Benjamin_Resume_2025.pdf",
     "INSTALL.md",
     "assets/img/profile.jpg",

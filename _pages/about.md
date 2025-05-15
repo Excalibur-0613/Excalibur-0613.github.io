@@ -43,9 +43,9 @@ My growing belief is that robotics has only scratched the surface when it comes 
 This isn’t just theory—I’ve built and tested these systems to demonstrate real-world potential. I'm eager to contribute to projects and teams pushing the boundaries of what robotic interaction can achieve.
 ## **Explore More**
 
-To get a deeper look at my work, visit the "Projects" tab for detailed write-ups of both individual and group efforts. You can also access related source code under "Repositories," and get a full overview of my experience in the "CV" section. My social links and contact information is accessible through the buttons below as well as in the CV section. 
+To get a deeper look at my work, visit the "Projects" tab for detailed write-ups of both individual and group efforts. My social links and contact information is accessible through the buttons below as well as in the CV section. 
 
-Thank you for visiting. I’m always open to new opportunities, collaborations, or just thoughtful conversation about the future of robotics. Let’s connect!
+Thank you for visiting. I’m always open to new opportunities, collaborations, or thoughtful conversation about the future of robotics. Let’s connect!
 
 
 
