@@ -177,6 +177,8 @@
         "Matlab",
         "LaTeX"
       ]
+     },
+     {
       "name": "Design and Modeling Tools",
       "level": "",
       "icon": "fa-solid fa-hashtag",
@@ -188,6 +190,8 @@
         "Catia",
         "Microsoft Office"
       ]
+     },
+     {
       "name": "Algorithms and Control Systems",
       "level": "",
       "icon": "fa-solid fa-hashtag",
