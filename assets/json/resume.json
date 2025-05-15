@@ -29,7 +29,7 @@
       "url": "",
       "startDate": "2022-08-22",
       "endDate": "Present",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "summary": "My current position which I am responsible for the design and implementation of preventative maintenance devices and the deployment of high value industrial systems.",
       "highlights": ["Relativity"]
     },
     {
@@ -73,7 +73,7 @@
       "startDate": "2017-08-22",
       "endDate": "2022-04-29",
       "score": "",
-      "courses": [""]
+      "courses": ["ACCEND Student"]
     },
     {
       "institution": "University of Cincinnati",
@@ -84,7 +84,7 @@
       "startDate": "2020-08-24",
       "endDate": "2023-08-05",
       "score": "",
-      "courses": [""]
+      "courses": ["SRIDE Graduate Research Fellow"]
     }
   ],
  "awards": [
@@ -176,7 +176,7 @@
         "C++",
         "Matlab",
         "LaTeX"
-      ],
+      ]
       "name": "Design and Modeling Tools",
       "level": "",
       "icon": "fa-solid fa-hashtag",
@@ -187,7 +187,7 @@
         "Siemens NX",
         "Catia",
         "Microsoft Office"
-      ],
+      ]
       "name": "Algorithms and Control Systems",
       "level": "",
       "icon": "fa-solid fa-hashtag",
@@ -242,9 +242,9 @@
     "projects": [
     {
       "name": "Custom Force-Feedback Motor Driver",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "Spring 2024",
+      "summary": "",
+      "highlights": ["Developing a custom testbed for evaluating real-time force interation in mobile robotic platforms", "Built moduclar system for assessing dynamic response under controlled physical contact in sim-to-real control workflows", "Designed and integrated embedded force-sensitive resistors (FSRs) with custom circuitry and Python-based data streaming"],
+      "startDate": "2023-08-22",
       "endDate": "Present",
       "url": "https://excalibur-0613.github.io/projects/2_project/"
     }
