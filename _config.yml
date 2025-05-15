@@ -649,12 +649,12 @@ jsonresume:
   - basics
   - work
   - education
-  - publications
+  # - publications
   - projects
-  - volunteer
+  # - volunteer
   - awards
-  - certificates
+  # - certificates
   - skills
   - languages
-  - interests
-  - references
+  # - interests
+  # - references
