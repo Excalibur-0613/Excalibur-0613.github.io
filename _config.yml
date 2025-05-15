@@ -654,7 +654,7 @@ jsonresume:
   # - volunteer
   - awards
   # - certificates
-  - skills
+  # - skills
   - languages
   # - interests
   # - references

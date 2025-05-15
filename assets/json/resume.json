@@ -93,7 +93,7 @@
       "date": "2021-11-07",
       "awarder": "Space Research Institute for Discovery and Exploration",
       "url": "https://research.uc.edu/news/2021/11/07/uc-space-research-institute-announces-first-round-of-student-research-fellows",
-      "summary": "This fellowship provided me the opportunity to finish my bachelors program and solely focus on my Master's work. I was able to reach great depth and complete many of the desired outcomes such as a full simulation and fully built prototype force sensitive robot."
+      "summary": "This fellowship provided me the opportunity to reach great depth and complete many of the desired outcomes such as a full simulation and fully built prototype force sensitive robot. I am greatly honored for this recognition and opportunities it has provided."
     }
   ],
   "certificates": [
@@ -248,7 +248,7 @@
       "name": "Custom Force-Feedback Motor Driver",
       "summary": "",
       "highlights": ["Developing a custom testbed for evaluating real-time force interation in mobile robotic platforms", "Built moduclar system for assessing dynamic response under controlled physical contact in sim-to-real control workflows", "Designed and integrated embedded force-sensitive resistors (FSRs) with custom circuitry and Python-based data streaming"],
-      "startDate": "2023-08-22",
+      "startDate": "2024-03-10",
       "endDate": "Present",
       "url": "https://excalibur-0613.github.io/projects/2_project/"
     }
