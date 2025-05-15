@@ -14,14 +14,6 @@
       "countryCode": "US",
       "region": ""
     },
-    "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "",
-        "url": "https://www.linkedin.com/in/benjamin-russ-57a18a122
-      }
-    ]
-  },
   "work": [
     {
       "name": "Institute for Advanced Study, Princeton University",
@@ -62,69 +54,49 @@
   "awards": [
     {
       "title": "Graduate Research Fellow",
-      "date": "2021-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "date": "2021-11-07",
+      "awarder": "Space Research Institute for Discovery and Exploration",
+      "url": "https://research.uc.edu/news/2021/11/07/uc-space-research-institute-announces-first-round-of-student-research-fellows",
+      "summary": "This fellowship provided me the opportunity to finish my bachelors program and solely focus on my Master's work. I was able to reach great depth and complete many of the desired outcomes such as a full simulation and fully built prototype force sensitive robot."
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
+
   
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
+      "name": "Robotics and Programming",
+      "level": "",
       "icon": "fa-solid fa-hashtag",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "ROS/ROS2",
+        "Gazebo",
+        "Nvidia Isaac",
+        "Python",
+        "C++",
+        "Matlab",
+        "LaTeX"
+      ],
+      "name": "Design and Modeling Tools",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Solidworks",
+        "AutoCAD",
+        "Inventor",
+        "Siemens NX",
+        "Catia",
+        "Microsoft Office"
+      ],
+      "name": "Algorithms and Control Systems",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Impedance Control",
+        "Dynamic Systems Analysis",
+        "SLAM",
+        "Sensor Fusion",
+        "Particle Swarm Optimization",
+        "Reinforcement Learning"
       ]
     }
   ],
@@ -142,12 +114,12 @@
   ],
     "projects": [
     {
-      "name": "Quantum Computing",
+      "name": "Custom Force-Feedback Motor Driver",
       "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
       "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "startDate": "Spring 2024",
+      "endDate": "Present",
+      "url": "https://excalibur-0613.github.io/projects/2_project/"
     }
   ]
 }

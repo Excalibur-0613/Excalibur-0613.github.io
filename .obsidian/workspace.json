@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CUSTOMIZE.md",
+                "file": "_pages/profiles.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CUSTOMIZE"
+              "title": "profiles"
             }
           }
         ]
@@ -170,9 +170,11 @@
   },
   "active": "29fa2454d59812e1",
   "lastOpenFiles": [
-    "_pages/profiles.md",
-    "CUSTOMIZE.md",
+    "_pages/404.md",
     "_pages/about_einstein.md",
+    "_pages/blog.md",
+    "CUSTOMIZE.md",
+    "_pages/profiles.md",
     "_pages/about.md",
     "_projects/1_project.md",
     "_projects/4_project.md",
@@ -206,14 +208,12 @@
     "_projects/2_project.md",
     "_projects/9_project.md",
     "_projects/8_project.md",
-    "_pages/blog.md",
     "_pages/cv.md",
     "assets/pdf/Russ_Benjamin_Resume_2025.pdf",
     "assets/pdf/BenjaminRuss_Thesis.pdf",
     "INSTALL.md",
     "assets/img/profile.jpg",
     "_pages/books.md",
-    "_posts/2025-03-26-plotly.md",
     "readme_preview/code.png",
     "readme_preview/dark.png"
   ]
