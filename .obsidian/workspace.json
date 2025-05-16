@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/about.md",
+                "file": "_pages/teaching.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "about"
+              "title": "teaching"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "29fa2454d59812e1",
   "lastOpenFiles": [
+    "_pages/about.md",
     "_pages/cv.md",
     "_pages/profiles.md",
     "assets/pdf/cv_pdf.pdf",
@@ -177,7 +178,6 @@
     "_pages/about_einstein.md",
     "_pages/blog.md",
     "CUSTOMIZE.md",
-    "_pages/about.md",
     "_projects/1_project.md",
     "_projects/4_project.md",
     "_posts/2015-10-20-math.md",

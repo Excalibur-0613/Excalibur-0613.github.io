@@ -2,11 +2,11 @@
 layout: page
 title: Thesis
 description: Multi-Robot Collaboration via Contact Perception & Non-Prehensile Object Transportation
-img: assets/img/12.jpg
+img: assets/img/IMG_4667.jpg
 importance: 1
 category: 
 related_publications: false
-cv_pdf: BenjaminRuss_Thesis.pdf
+cv_pdf: assest/pdf/BenjaminRuss_Thesis.pdf
 ---
 At the onset of this project, the fundamental question that I formulated was: 
 
