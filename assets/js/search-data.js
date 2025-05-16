@@ -384,11 +384,6 @@ ninja.data = [{
           description: "Simulating space debris free motion on earth to understand trajectories mirrored in space",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-cellular-automata-attractor-and-repellor-system",
-          title: 'Cellular Automata attractor and repellor system',
-          description: "A simulation for a complex system with simple rules to move objects to a target region in 2D space",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
             },},{
         id: 'social-email',
         title: 'email',
