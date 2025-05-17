@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f38e47895025ec10",
+        "id": "358c49dd08176b85",
         "type": "tabs",
         "children": [
           {
-            "id": "29fa2454d59812e1",
+            "id": "3acbe5d162e1545a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_pages/teaching.md",
+                "file": "_projects/2_project.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "teaching"
+              "title": "2_project"
             }
           }
         ]
@@ -168,9 +168,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "29fa2454d59812e1",
+  "active": "3acbe5d162e1545a",
   "lastOpenFiles": [
+    "_projects/1_project.md",
+    "_projects/2_project.md",
     "_pages/about.md",
+    "_pages/teaching.md",
+    "assets/img/Proj/ForceMotorDriver/IMG_7232.JPG",
+    "assets/img/Proj/ForceMotorDriver",
+    "assets/img/IMG_7232.JPG",
+    "assets/img/Proj/Thesis/IMG_7232.JPG",
     "_pages/cv.md",
     "_pages/profiles.md",
     "assets/pdf/cv_pdf.pdf",
@@ -178,7 +185,6 @@
     "_pages/about_einstein.md",
     "_pages/blog.md",
     "CUSTOMIZE.md",
-    "_projects/1_project.md",
     "_projects/4_project.md",
     "_posts/2015-10-20-math.md",
     "_posts/2015-07-15-code.md",
@@ -207,13 +213,8 @@
     "assets/img/Proj/FanucRobot.jpg",
     "assets/img/Proj",
     "assets/img/FanucRobot.jpg",
-    "_projects/2_project.md",
     "_projects/9_project.md",
     "_projects/8_project.md",
-    "assets/pdf/Russ_Benjamin_Resume_2025.pdf",
-    "INSTALL.md",
-    "assets/img/profile.jpg",
-    "readme_preview/code.png",
-    "readme_preview/dark.png"
+    "INSTALL.md"
   ]
 }
