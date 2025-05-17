@@ -2,7 +2,7 @@
 layout: page
 title: Force Sensitive Motor Driver
 description: Ongoing development for force responsive joints
-img: assets/img/Proj/ThesisMotorDriver/IMG_7232.jpg
+img: assets/img/Proj/ForceMotorDriver/IMG_7232.jpg
 importance: 2
 category:
 ---
